@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"C:\\\\Users\\\\User\\\\Desktop\\\\autoninja\\\\code_projects\\\\GoUP\" log --oneline -10)",
+      "Bash(git -C \"C:\\\\Users\\\\User\\\\Desktop\\\\autoninja\\\\code_projects\\\\GoUP\" show --stat)",
+      "Bash(git -C \"C:\\\\Users\\\\User\\\\Desktop\\\\autoninja\\\\code_projects\\\\GoUP\" config --list)",
+      "Bash(tree:*)",
+      "Bash(git -C \"C:\\\\Users\\\\User\\\\Desktop\\\\autoninja\\\\code_projects\\\\GoUP\" remote -v)",
+      "Bash(git -C \"C:\\\\Users\\\\User\\\\Desktop\\\\autoninja\\\\code_projects\\\\GoUP\" branch -a)",
+      "Bash(git -C \"C:\\\\Users\\\\User\\\\Desktop\\\\autoninja\\\\code_projects\\\\GoUP\" log --all --oneline)",
+      "Bash(python -m venv:*)",
+      "Bash(venvScriptspip install -r requirements.txt)",
+      "Bash(\"venv/Scripts/pip.exe\" install -r requirements.txt)",
+      "Bash(\"venv/Scripts/python.exe\" -m src.main verify apteekki360.fi ashford.com)",
+      "Bash(\"venv/Scripts/python.exe\" -m src.main:*)",
+      "Bash(\"venv/Scripts/python.exe\":*)",
+      "Bash(\"venv/Scripts/python.exe\" -m src.main pilot --export -v)",
+      "Bash(\"venv/Scripts/python.exe\" -m src.main -v pilot --export)",
+      "Bash(python -m src.main pilot:*)",
+      "Bash(pip install:*)",
+      "Bash(python -m src.main:*)",
+      "Bash(python:*)",
+      "Bash(venv\\\\Scripts\\\\python.exe -m src.main search:*)",
+      "Bash(if exist \"data\\\\processed_domains.json\" del \"data\\\\processed_domains.json\")",
+      "Bash(git add:*)"
+    ]
+  }
+}
